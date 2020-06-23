@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp
-  namespace: tekton-pipelines
+  namespace: tekton-demo
   labels:
     app: myapp
 spec:
