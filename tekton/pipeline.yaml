@@ -2,6 +2,7 @@ apiVersion: tekton.dev/v1alpha1
 kind: Pipeline
 metadata:
   name: myapp
+  namespace: tekton-demo
 spec:
   params:
     - name: BUILDER_IMAGE
