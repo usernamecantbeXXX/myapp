@@ -4,6 +4,7 @@ metadata:
   labels:
     app: myapp
   name: myapp
+  namespace: tekton-pipelines
 spec:
   # Use a different type if LoadBalancer is not supported on your k8s environment
   type: LoadBalancer

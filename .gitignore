@@ -1,2 +1,8 @@
 node_modules
 npm-debug.log
+/.idea/.gitignore
+/.idea/kubernetes-settings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/myapp.iml
+/.idea/vcs.xml
