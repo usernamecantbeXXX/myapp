@@ -2,7 +2,7 @@ apiVersion: tekton.dev/v1alpha1
 kind: Task
 metadata:
   name: build-docker
-  namespace: tekton-demo
+  namespace: tekton-pipelines
 spec:
   inputs:
     resources:
